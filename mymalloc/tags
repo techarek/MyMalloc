@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGN	./allocator.c	42;"	d	file:
+ALIGNMENT	./allocator.c	38;"	d	file:
+BAD_SIZE	./bad_allocator.c	27;"	d	file:
+CACHE_BLOCK	./fcyc.c	24;"	d	file:
+CACHE_BYTES	./fcyc.c	23;"	d	file:
+CLEAR_CACHE	./fcyc.c	22;"	d	file:
+COMPENSATE	./fcyc.c	21;"	d	file:
+EPSILON	./fcyc.c	20;"	d	file:
+K	./fcyc.c	18;"	d	file:
+KEEP_SAMPLES	./fcyc.c	41;"	d	file:
+KEEP_VALS	./fcyc.c	40;"	d	file:
+MAXSAMPLES	./fcyc.c	19;"	d	file:
+MAX_ETIME	./ftimer.c	61;"	d	file:
+Mhz	./fsecs.c	/^static double Mhz;  \/* estimated CPU clock frequency *\/$/;"	v	file:
+NEVENT	./clock.c	100;"	d	file:
+NUM_ALLOCS	./allocator_test.c	29;"	d	file:
+NUM_ITERATIONS	./allocator_test.c	30;"	d	file:
+RECORDTHRESH	./clock.c	102;"	d	file:
+SIZE_T_SIZE	./allocator.c	45;"	d	file:
+THRESHOLD	./clock.c	101;"	d	file:
+access_counter	./clock.c	/^void access_counter(unsigned* hi, unsigned* lo) {$/;"	f
+add_sample	./fcyc.c	/^static void add_sample(double val) {$/;"	f	file:
+app_error	./mdriver.c	/^void app_error(char* msg) {$/;"	f
+bad_check	./bad_allocator.c	/^int bad_check() {$/;"	f
+bad_free	./bad_allocator.c	/^void bad_free(void* ptr) {$/;"	f
+bad_heap_hi	./bad_allocator.c	/^void* bad_heap_hi() {$/;"	f
+bad_heap_lo	./bad_allocator.c	/^void* bad_heap_lo() {$/;"	f
+bad_init	./bad_allocator.c	/^int bad_init() {$/;"	f
+bad_malloc	./bad_allocator.c	/^void* bad_malloc(size_t size) {$/;"	f
+bad_realloc	./bad_allocator.c	/^void* bad_realloc(void* ptr, size_t size) {$/;"	f
+bad_reset_brk	./bad_allocator.c	/^void bad_reset_brk() {$/;"	f
+cache_block	./fcyc.c	/^static int cache_block = CACHE_BLOCK;$/;"	v	file:
+cache_buf	./fcyc.c	/^static int* cache_buf = NULL;$/;"	v	file:
+cache_bytes	./fcyc.c	/^static int cache_bytes = CACHE_BYTES;$/;"	v	file:
+callibrate	./clock.c	/^static void callibrate(int verbose) {$/;"	f	file:
+checked	./mdriver.c	/^  int checked;     \/* was the heap valid after every allocation? *\/$/;"	m	struct:__anon1	file:
+clear	./fcyc.c	/^static void clear() {$/;"	f	file:
+clear_cache	./fcyc.c	/^static int clear_cache = CLEAR_CACHE;$/;"	v	file:
+compensate	./fcyc.c	/^static int compensate = COMPENSATE;$/;"	v	file:
+cyc_hi	./clock.c	/^static unsigned cyc_hi = 0;$/;"	v	file:
+cyc_lo	./clock.c	/^static unsigned cyc_lo = 0;$/;"	v	file:
+cyc_per_tick	./clock.c	/^static double cyc_per_tick = 0.0;$/;"	v	file:
+epsilon	./fcyc.c	/^static double epsilon = EPSILON;$/;"	v	file:
+errors	./mdriver.c	/^static int errors = 0;  \/* number of errs found when running student malloc *\/$/;"	v	file:
+eval_libc_speed	./mdriver.c	/^static void eval_libc_speed(trace_t* trace) {$/;"	f	file:
+eval_mm_check	./mdriver.c	/^static int eval_mm_check(const malloc_impl_t* impl, trace_t* trace, int tracenum) {$/;"	f	file:
+eval_mm_speed	./mdriver.c	/^static void eval_mm_speed(const malloc_impl_t* impl, trace_t* trace) {$/;"	f	file:
+eval_mm_util	./mdriver.c	/^static double eval_mm_util(const malloc_impl_t* impl, trace_t* trace) {$/;"	f	file:
+eval_my_speed	./mdriver.c	/^static void eval_my_speed(trace_t* trace) {$/;"	f	file:
+fcyc	./fcyc.c	/^double fcyc(test_funct f, void* argp) {$/;"	f
+first_p	./ftimer.c	/^static struct itimerval first_p; \/* prof time*\/$/;"	v	typeref:struct:itimerval	file:
+first_r	./ftimer.c	/^static struct itimerval first_r; \/* real time *\/$/;"	v	typeref:struct:itimerval	file:
+first_u	./ftimer.c	/^static struct itimerval first_u; \/* user time *\/$/;"	v	typeref:struct:itimerval	file:
+free	./allocator.c	32;"	d	file:
+free	./bad_allocator.c	31;"	d	file:
+free_trace	./mdriver.c	/^void free_trace(trace_t* trace) {$/;"	f
+fsecs	./fsecs.c	/^double fsecs(fsecs_test_funct f, void* argp) {$/;"	f
+ftimer_gettod	./ftimer.c	/^double ftimer_gettod(ftimer_test_funct f, void* argp, int n) {$/;"	f
+ftimer_itimer	./ftimer.c	/^double ftimer_itimer(ftimer_test_funct f, void* argp, int n) {$/;"	f
+get_comp_counter	./clock.c	/^double get_comp_counter() {$/;"	f
+get_counter	./clock.c	/^double get_counter() {$/;"	f
+get_etime	./ftimer.c	/^static double get_etime(void) {$/;"	f	file:
+has_converged	./fcyc.c	/^static int has_converged() {$/;"	f	file:
+init_etime	./ftimer.c	/^static void init_etime(void) {$/;"	f	file:
+init_fsecs	./fsecs.c	/^void init_fsecs(void) {$/;"	f
+init_sampler	./fcyc.c	/^static void init_sampler() {$/;"	f	file:
+kbest	./fcyc.c	/^static int kbest = K;$/;"	v	file:
+libc_check	./libc_allocator.c	/^int libc_check() {$/;"	f
+libc_free	./libc_allocator.c	/^void libc_free(void* ptr) {$/;"	f
+libc_heap_hi	./libc_allocator.c	/^void* libc_heap_hi() {$/;"	f
+libc_heap_lo	./libc_allocator.c	/^void* libc_heap_lo() {$/;"	f
+libc_init	./libc_allocator.c	/^int libc_init() {$/;"	f
+libc_malloc	./libc_allocator.c	/^void* libc_malloc(size_t size) {$/;"	f
+libc_realloc	./libc_allocator.c	/^void* libc_realloc(void* ptr, size_t size) {$/;"	f
+libc_reset_brk	./libc_allocator.c	/^void libc_reset_brk() {$/;"	f
+main	./allocator_test.c	/^int main() {$/;"	f
+main	./mdriver.c	/^int main(int argc, char** argv) {$/;"	f
+malloc	./allocator.c	31;"	d	file:
+malloc	./bad_allocator.c	30;"	d	file:
+malloc_error	./mdriver.c	/^void malloc_error(int tracenum, int opnum, char* msg) {$/;"	f
+maxsamples	./fcyc.c	/^static int maxsamples = MAXSAMPLES;$/;"	v	file:
+mem_brk	./memlib.c	/^static char* mem_brk;        \/* points to last byte of heap *\/$/;"	v	file:
+mem_deinit	./memlib.c	/^void mem_deinit(void) {$/;"	f
+mem_heap_hi	./memlib.c	/^void* mem_heap_hi(void) {$/;"	f
+mem_heap_lo	./memlib.c	/^void* mem_heap_lo(void) {$/;"	f
+mem_heapsize	./memlib.c	/^size_t mem_heapsize(void) {$/;"	f
+mem_impl	./allocator_test.c	/^const malloc_impl_t* mem_impl;$/;"	v
+mem_init	./memlib.c	/^void mem_init(void) {$/;"	f
+mem_max_addr	./memlib.c	/^static char* mem_max_addr;   \/* largest legal heap address *\/$/;"	v	file:
+mem_op	./mdriver.c	/^static void mem_op(volatile char* raddr, volatile char* waddr) {$/;"	f	file:
+mem_pagesize	./memlib.c	/^size_t mem_pagesize(void) {$/;"	f
+mem_reset_brk	./memlib.c	/^void mem_reset_brk(void) {$/;"	f
+mem_sbrk	./memlib.c	/^void* mem_sbrk(unsigned int incr) {$/;"	f
+mem_start_brk	./memlib.c	/^static char* mem_start_brk;  \/* points to first byte of heap *\/$/;"	v	file:
+mhz	./clock.c	/^double mhz(int verbose) {$/;"	f
+mhz_full	./clock.c	/^double mhz_full(int verbose, int sleeptime) {$/;"	f
+msg	./mdriver.c	/^char msg[MAXLINE];      \/* for whenever we need to compose an error message *\/$/;"	v
+my_check	./allocator.c	/^int my_check() {$/;"	f
+my_free	./allocator.c	/^void my_free(void* ptr) {$/;"	f
+my_init	./allocator.c	/^int my_init() {$/;"	f
+my_malloc	./allocator.c	/^void* my_malloc(size_t size) {$/;"	f
+my_realloc	./allocator.c	/^void* my_realloc(void* ptr, size_t size) {$/;"	f
+ops	./mdriver.c	/^  double ops;      \/* number of ops (malloc\/free\/realloc) in the trace *\/$/;"	m	struct:__anon1	file:
+ovhd	./clock.c	/^double ovhd() {$/;"	f
+printresults	./mdriver.c	/^static void printresults(int n, char** tracefiles, stats_t* stats) {$/;"	f	file:
+read_trace	./mdriver.c	/^static trace_t* read_trace(char* tracedir, char* filename) {$/;"	f	file:
+realloc	./allocator.c	33;"	d	file:
+realloc	./bad_allocator.c	32;"	d	file:
+samplecount	./fcyc.c	/^static int samplecount = 0;$/;"	v	file:
+samples	./fcyc.c	/^  static double* samples = NULL;$/;"	v	file:
+secs	./mdriver.c	/^  double secs;     \/* number of secs needed to run the trace *\/$/;"	m	struct:__anon1	file:
+set_fcyc_cache_block	./fcyc.c	/^void set_fcyc_cache_block(int bytes) {$/;"	f
+set_fcyc_cache_size	./fcyc.c	/^void set_fcyc_cache_size(int bytes) {$/;"	f
+set_fcyc_clear_cache	./fcyc.c	/^void set_fcyc_clear_cache(int clear) {$/;"	f
+set_fcyc_compensate	./fcyc.c	/^void set_fcyc_compensate(int compensate_arg) {$/;"	f
+set_fcyc_epsilon	./fcyc.c	/^void set_fcyc_epsilon(double epsilon_arg) {$/;"	f
+set_fcyc_k	./fcyc.c	/^void set_fcyc_k(int k) {$/;"	f
+set_fcyc_maxsamples	./fcyc.c	/^void set_fcyc_maxsamples(int maxsamples_arg) {$/;"	f
+sink	./fcyc.c	/^static volatile int sink = 0;$/;"	v	file:
+start_comp_counter	./clock.c	/^void start_comp_counter() {$/;"	f
+start_counter	./clock.c	/^void start_counter() {$/;"	f
+start_tick	./clock.c	/^static clock_t start_tick = 0;$/;"	v	file:
+stats_t	./mdriver.c	/^} stats_t;$/;"	t	typeref:struct:__anon1	file:
+tracedir	./mdriver.c	/^static char tracedir[MAXLINE] = TRACEDIR;$/;"	v	file:
+unix_error	./mdriver.c	/^void unix_error(char* msg) {$/;"	f
+usage	./mdriver.c	/^static void usage(void) {$/;"	f	file:
+util	./mdriver.c	/^  double util;     \/* space utilization for this trace (always 0 for libc) *\/$/;"	m	struct:__anon1	file:
+valid	./mdriver.c	/^  int valid;       \/* was the trace processed correctly by the allocator? *\/$/;"	m	struct:__anon1	file:
+values	./fcyc.c	/^static double* values = NULL;$/;"	v	file:
+verbose	./allocator_test.c	/^int verbose = 0;$/;"	v
+verbose	./mdriver.c	/^int verbose = 0;        \/* global flag for verbose output *\/$/;"	v
+xor_constant	./mdriver.c	/^static const char xor_constant = 0x7B;$/;"	v	file:
